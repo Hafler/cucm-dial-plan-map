@@ -213,7 +213,7 @@ def route_trunk_sql
   WHERE n.tkpatternusage=5
   AND rg.name IS NULL '
   sql = add_filters('trunk', base_sql)
-  sql = base_sql + 'ORDER BY css.name, csm.sortorder'
+  sql += 'ORDER BY css.name, csm.sortorder'
   sql
 end
 
