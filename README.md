@@ -55,3 +55,5 @@ Options:
     Optional: Defines a filter for device names. Use % for wildcard
 
 ```
+## Example Output
+![Alt text](example.png?raw=true "Example")
